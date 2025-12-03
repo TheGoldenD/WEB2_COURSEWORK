@@ -57,7 +57,7 @@ app.component('product-display',{
             product: 'Socks',
             brand: 'Dingaling',
             selectedVariant:0,
-            desc: 'We will measure your feet',
+            desc: 'R0NTMjMwMjYx',
             link:'https://picsum.photos',
             sale:true,
             details:['50% cotton','30% wool','20% polyester'],

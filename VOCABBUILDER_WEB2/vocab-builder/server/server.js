@@ -6,7 +6,7 @@ global.Vocab = require('./api/models/vocabModel');
 const routes = require('./api/routes/vocabRoutes');
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://longpvhgcs230261:thienlong12@web2.tumm34k.mongodb.net/?retryWrites=true&w=majority&appName=Web2', {
+mongoose.connect('mongodb+srv://longpvhgcs230261:Thienlong12@web2.tumm34k.mongodb.net/?retryWrites=true&w=majority&appName=Web2', {
     useNewUrlParser: true,}
 );
 

@@ -34,7 +34,6 @@ exports.update_a_word = (req, res) => {
         }
     );
 };
-
 exports.delete_a_word = (req, res) => {
     Vocab.deleteOne({_id: req.params.wordId}, (err, word) => {
         if (err) res.send(err);

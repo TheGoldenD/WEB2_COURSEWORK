@@ -11,6 +11,10 @@ const vocabSchema = new schema(
         german : {
             type: String,
             required: 'German word is required',
+        },
+        italian: {
+            type: String,
+            required: 'Italian word is required',
         }
     },
     {collection: 'vocab'}
